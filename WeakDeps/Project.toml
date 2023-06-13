@@ -1,0 +1,15 @@
+name = "WeakDeps"
+version = "0.1.0"
+uuid = "51376d7c-8773-49f1-a908-35285560668d"
+
+[weakdeps]
+Contour = "d38c429a-6771-53c6-b99e-75d170b6e991"
+
+[extensions]
+# name of extension to the left
+# extension dependencies required to load the extension to the right
+# use a list for multiple extension dependencies
+WeakDepsContourExt = "Contour"
+
+[compat]
+Contour = "0.6.2"
