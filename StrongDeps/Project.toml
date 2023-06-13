@@ -3,7 +3,4 @@ version = "0.1.0"
 uuid = "51376d7c-8773-49f1-a908-35285560668c"
 
 [deps]
-Contour = "d38c429a-6771-53c6-b99e-75d170b6e991"
-
-[compat]
-Contour = "0.6.2"
+CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
