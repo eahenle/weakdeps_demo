@@ -1,9 +1,7 @@
 module WeakDeps
 
-function plot(x::Vector)
-    # Some functionality for plotting a vector here
-end
+function f end # zero-method declaration
 
-export plot
+export f
 
 end # module

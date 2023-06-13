@@ -2,14 +2,10 @@ module StrongDeps
 
 using CairoMakie
 
-function plot(x::Vector)
-    # Some functionality for plotting a vector here
+function f()
+    # something that requires a large dependency (e.g. CairoMakie)
 end
 
-function plot(c::Matrix)
-    # Some functionality for plotting a contour here
-end
-
-export plot
+export f
 
 end # module
